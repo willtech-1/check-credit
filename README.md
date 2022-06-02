@@ -7,7 +7,7 @@ The data used is the dummy data manipulated using the user's last name.
 
 ## Functionalities
 Users can check their credit score.<br />
-Users can see the national score.<br />
+Users can see the national score average.<br />
 Users can see which accounts and companies they owe.<br />
 Users can check what loans, credit cards are available for them based on their score.<br />
 There's also an Affordability calculator to determine how much you could afford to save monthly, pay monthly on a new loan or pay extra monthly on an existing loan.<br />
