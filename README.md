@@ -1,4 +1,4 @@
-# Check Score Check App
+# Credit Score Check App
 
 **link(https://willtech-check-credit.netlify.app/)**
 
