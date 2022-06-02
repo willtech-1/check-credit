@@ -1,0 +1,164 @@
+.profile-footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: 3rem;
+    
+}
+
+.profile-footer-wrapper{
+    width: 500px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.profile-footer-heading{
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: rgb(255, 169, 8);
+}
+
+.profile-footer-header{
+    color: rgb(19, 32, 32);
+    font-size: 1.15rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 0.85rem;
+}
+
+.profile-footer-text{
+    margin-top: 0.85rem;
+    color: rgb(37, 51, 51);
+    font-size: 0.95rem;
+}
+
+.profile-footer-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.profile-footer-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* icons background styling */
+
+.mail-profile-icon{
+    background-color: rgb(23, 114, 109);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 90px;
+}
+.facebook-profile-icon{
+    background-color: rgb(36, 36, 148);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 90px;
+}
+.twitter-profile-icon{
+    background-color: rgb(83, 216, 216);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 90px;
+}
+.whatsapp-profile-icon{
+    background-color: limegreen;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 90px;
+}
+
+.profile-footer-icon{
+    font-size: 2rem;
+}
+
+.p-footer-text{
+    font-size: 0.85rem;
+    letter-spacing: 0.85px
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+    .mail-profile-icon{
+        width: 80px;
+        margin: 0.5rem;
+    }
+    .facebook-profile-icon{
+        width: 80px;
+        margin: 0.5rem;
+    }
+    .twitter-profile-icon{
+        width: 80px;
+        margin: 0.5rem;
+    }
+    .whatsapp-profile-icon{
+        width: 80px;
+        margin: 0.5rem;
+    }
+}
+@media only screen and (max-width: 488px){
+    .profile-footer-wrapper{
+        width: 360px;
+    }
+    .mail-profile-icon{
+        width: 85px;
+        margin: 0.20rem;
+    }
+    .facebook-profile-icon{
+        width: 75px;
+        margin: 0.20rem;
+    }
+    .twitter-profile-icon{
+        width: 75px;
+        margin: 0.20rem;
+    }
+    .whatsapp-profile-icon{
+        width: 75px;
+        margin: 0.20rem;
+    }
+}
+
+@media only screen and (max-width: 384px){
+    .profile-footer-wrapper{
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .profile-footer-wrapper{
+        width: 310px;
+    }
+    .facebook-profile-icon{
+        width: 70px;
+        margin: 0.15rem;
+    }
+    .twitter-profile-icon{
+        width: 70px;
+        margin: 0.15rem;
+    }
+    .whatsapp-profile-icon{
+        width: 70px;
+        margin: 0.15rem;
+    }
+    .p-footer-text{
+        font-size: 0.55rem;
+    }
+}

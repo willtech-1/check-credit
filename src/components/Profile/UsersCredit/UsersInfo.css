@@ -1,0 +1,94 @@
+.users-info-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+}
+
+.users-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.users-info-para{
+    font-size: 0.95rem;
+    width: 350px;
+    margin-top: 1rem;
+}
+
+.users-section{
+    margin: 1rem;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px;
+    padding: 10px;
+}
+
+.missed-payments-heading{
+    padding: 4px;
+    background-color: rgb(243, 201, 201);
+    color: rgb(41, 40, 40);
+    width: 85px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    font-size: 0.85rem;
+}
+
+.credit-card-heading{
+    padding: 4px;
+    background-color: rgb(243, 201, 201);
+    color: rgb(41, 40, 40);
+    width: 85px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.court-heading{
+    padding: 4px;
+    background-color: lightgreen;
+    color: rgb(41, 40, 40);
+    width: 85px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.payments-text{
+    color: rgb(11, 15, 15);
+    margin-top: 1rem;
+    letter-spacing: 0.5px;
+    font-size: 0.85;
+}
+
+.users-info-para{
+    color: rgb(49, 58, 58);
+}
+
+.info-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-icon{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: rgb(49, 58, 58);
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .users-info-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .users-info-para{
+        width: 100%;
+    }
+}
+

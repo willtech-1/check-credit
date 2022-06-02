@@ -1,0 +1,21 @@
+/* CREDIT TABS */
+
+  .tabs-header{
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .half-circle {
+    width: 200px;
+    height: 100px; 
+    border-top-left-radius: 110px;  
+    border-top-right-radius: 110px; 
+    border: 10px solid rgb(35, 153, 35);
+    border-bottom: 0;
+  
+  }
+  
+  .display-info-container{
+    border: 1px solid grey;
+  }
+  

@@ -1,0 +1,44 @@
+.users-container{
+    background-color: rgb(245, 243, 243);
+    padding: 10px;
+}
+.data-wrapper{
+    box-shadow: 4px 4px 4px;
+    padding: 10px;
+    background-color: rgb(68, 27, 163);
+    border-radius: 6px;
+    color: white;
+    width: 200px;
+    font-size: 0.95rem;
+    letter-spacing: 0.25px;
+}
+
+.users-header{
+    font-size: 1.25rem;
+    padding: 8px;
+    margin-bottom: 1rem;
+}
+
+.data-container{
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.activated{
+    text-align: center;
+    background-color: rgb(86, 47, 177);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.accountIcon{
+    font-size: 1.5rem;
+background-color: white;
+border-radius: 50%;
+padding: 10px;
+color: rgb(68, 27, 163);
+}
+
+.account-info{
+    line-height: 2.5rem;
+  }

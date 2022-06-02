@@ -1,0 +1,82 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+    padding: 10px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.footer-section{
+    margin-right: 4rem;
+}
+
+.footer-icon{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: rgb(45, 63, 63);
+}
+
+.footer-company-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(45, 63, 63);
+}
+
+.footer-text{
+    margin-top: 1rem;
+    width: 200px;
+    color: rgb(58, 82, 82);
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+}
+
+.footer-text2{
+    color: rgb(58, 82, 82);
+    font-size: 0.85rem;
+}
+
+.footer-socials{
+    color: rgb(58, 82, 82);
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.socials-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(45, 63, 63);
+}
+
+.youtube-icon{
+    margin-top: 1rem;
+}
+
+.social-text{
+    position: relative;
+    bottom: 17px;
+    font-size: 0.95rem;
+}
+
+@media only screen and (max-width: 600px){
+    .footer-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        line-height: 2rem;
+    }
+
+    .footer-text2{
+        margin-top: 2rem;
+    }
+
+    .footer-socials{
+        margin-top: 2rem;
+        
+    }
+}

@@ -1,0 +1,64 @@
+.profile-heading{
+    line-height: 3rem;
+    background-color: gainsboro;
+    color: rgb(47, 68, 68);
+    padding: 3rem;
+    padding-left: 3rem;
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: rgb(245, 243, 243);
+}
+
+.profile-date{
+    line-height: 3rem;
+    color: rgb(47, 68, 68);
+}
+
+.profile-info-wrapper{
+    margin-top: 3rem;
+    line-height: 1.5rem;
+    font-size: 0.90rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+.profile-btn{
+    margin-left: 1rem;
+}
+
+.profile-title{
+    text-transform: capitalize;
+    font-size: 1.35rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.title-header{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.details-text{
+    text-transform: capitalize;
+    font-size: 1.05rem;
+}
+
+.profile-info{
+    letter-spacing: 0.75px;
+    color: rgb(32, 46, 46);
+}
+
+.half-circle{
+    width: 200px;
+    height: 100px; /* as the half of the width */
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid rgb(16, 131, 12);
+    border-bottom: 0;
+}
+

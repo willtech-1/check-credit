@@ -1,0 +1,113 @@
+nav {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-item {
+  height: 80px;
+  margin: auto 1.5rem;
+}
+
+.nav-item:hover {
+  color: #49b1b9;
+}
+
+.nav-links {
+  color: #131819;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-links:hover {
+  transition: all 0.3s ease;
+  color: #49b1b9;
+}
+
+.profile-icon {
+  font-size: 1.5rem;
+  color: #49b1b9;
+}
+.report-icon {
+  font-size: 1.5rem;
+  color: #49b1b9;
+}
+.credit-icon {
+  font-size: 1.5rem;
+  color: #49b1b9;
+}
+.calc-icon {
+  font-size: 1.5rem;
+  color: #49b1b9;
+}
+
+.icon-text {
+  margin: 0.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.25px;
+  color: rgb(17, 17, 17);
+}
+
+.logout-btn-container {
+  margin-top: 0.55rem;
+}
+
+.logout-btn {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 4px;
+  color: white;
+  letter-spacing: 0.25px;
+  background: #43a5ac;
+}
+
+.logout-btn:hover {
+  transform: translateY(-1.25px);
+}
+
+/* nav humbuger */
+@media screen and (max-width: 740px) {
+  .nav-links {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .logout-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-item {
+    margin: auto;
+  }
+}
