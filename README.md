@@ -13,7 +13,7 @@ I developed this application using mock data. Users need enter a valid South Afr
 
 ![signin](https://user-images.githubusercontent.com/70260072/200851941-edc707b1-0e56-41ee-a463-46e0195e0cf2.png)
 
-
+![landing](https://user-images.githubusercontent.com/70260072/200851976-9814d5aa-fcee-4e57-a997-db7b3d0437a9.png)
 
 ## 🌱 Functionalities
 * Users can check their credit score
