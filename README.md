@@ -11,6 +11,10 @@
 ## ❓ What is it ?
 I developed this application using mock data. Users need enter a valid South African ID number in order to log into the app and the mock data I used is manipulated using the user's last name. Users can check for their credit score, they can go to their profile, check where do they rank in their area, what loans do they qualify for and affordability calculator to determine how much you could afford to save monthly.
 
+![signin](https://user-images.githubusercontent.com/70260072/200851941-edc707b1-0e56-41ee-a463-46e0195e0cf2.png)
+
+
+
 ## 🌱 Functionalities
 * Users can check their credit score
 * Users can see the national average credit score 
