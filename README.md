@@ -30,5 +30,5 @@ I developed this application using mock data. Users need enter a valid South Afr
 ## 👨‍💻 Technologies
 * HTML5 
 * CSS3
-* JavaScrip
+* JavaScript
 * React
