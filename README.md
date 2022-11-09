@@ -1,6 +1,6 @@
 # Credit Score Check App
 
-Poroject Link(https://willtech-check-credit.netlify.app/)
+Project Link(https://willtech-check-credit.netlify.app/)
 
 ## What is it?
 I developed this application using mock data. Users need enter a valid South African ID number in order to log into the app and the mock data I used is manipulated using the user's last name. Users can check for their credit score, they can go to their profile, check where do they rank in their area, what loans do they qualify for and affordability calculator to determine how much you could afford to save monthly.
@@ -14,7 +14,7 @@ I developed this application using mock data. Users need enter a valid South Afr
 
 
 ## Technologies
-HTML5 <br />
-CSS3<br />
-JavaScript<br />
-React
+* HTML5 
+* CSS3
+* JavaScrip
+* React
