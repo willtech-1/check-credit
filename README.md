@@ -17,6 +17,8 @@ I developed this application using mock data. Users need enter a valid South Afr
 
 ![explore](https://user-images.githubusercontent.com/70260072/200852022-398b853c-c1f3-46e5-96c4-e8883bc78cf5.png)
 
+![calc](https://user-images.githubusercontent.com/70260072/200852064-dcc9673b-b400-4f6e-8d58-cd7fc77a9672.png)
+
 ## 🌱 Functionalities
 * Users can check their credit score
 * Users can see the national average credit score 
